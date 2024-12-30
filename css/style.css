@@ -1,0 +1,90 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 5px 20px burlywood;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h3 {
+    text-transform: uppercase;
+}
+
+.img-area {
+    width: 150px;
+    height: 150px;
+    margin: 25px auto;
+    border: 15px groove rgb(236, 235, 235);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.info, .workexp {
+    padding: 30px;
+}
+
+h2 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0px;
+}
+
+.containerSkills {
+    width: 90%;
+    background-color: #dddddd;
+    margin-left: 25px;
+}
+
+.skills {
+    text-align: right;   
+    color: white; 
+}
+
+.html {
+    width: 90%;
+    background-color: orangered;
+}
+
+.css {
+    width: 80%;
+    background-color: rgb(38, 109, 241);
+}
+
+.js {
+    width: 95%;
+    background-color: rgb(189, 189, 2);
+}
+
+.info p {
+    padding-left: 25px;
+}
+.info h3 {
+    padding-left: 15px;
+}
+
+.workexp h3 {
+    padding-left: 25px;
+}
+
+.workexp p {
+    padding-left: 35px;
+}
+
+.workexp ul {
+    padding-left: 65px;    
+}
